@@ -36,9 +36,9 @@ export default function LanguageComboBox({selectedLanguage, setSelectedLanguage}
 
   return (
     <Combobox as="div" value={selectedLanguage} onChange={setSelectedLanguage}>
-      <div className="relative mt-1 text-gray-900">
+      <div className="relative text-gray-900">
         <Combobox.Input
-          className="w-[180px] rounded-md border border-gray-300 bg-white py-1.5 pl-2.5 pr-10 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
+          className="w-[140px] rounded-md border border-gray-300 bg-white py-1.5 pl-2.5 pr-10 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
           onChange={(event) => setQuery(event.target.value)}
           displayValue={(language) => language?.name}
         />
