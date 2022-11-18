@@ -11,8 +11,7 @@ const Footer = () => {
         }}
       >
         <div className="text-xs text-gray-600">
-          <span className="underline">Your data never hits our server.</span> It
-          is safe here with us.
+          🔐 <span className="underline">Your data is safe.</span> The diff is executed on your Web Browser.
         </div>
       </footer>
     </>

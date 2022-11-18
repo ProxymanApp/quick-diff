@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="h-screen w-screen">
       <MainHead></MainHead>
-      <div className="w-full h-full px-10">
+      <div className="w-full h-full px-10 py-4">
         <NavigationMenu />
         <MonacoEditorWithNoSSR />
         <Footer />

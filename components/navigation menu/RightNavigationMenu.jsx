@@ -256,7 +256,7 @@ const ContentListItemCallout = React.forwardRef(
     <ListItem css={{ gridRow: "span 3" }}>
       <NavigationMenuLink
         {...props}
-        href="/"
+        href="https://proxyman.io"
         ref={forwardedRef}
         css={{
           display: "flex",
@@ -269,18 +269,18 @@ const ContentListItemCallout = React.forwardRef(
           padding: 25,
         }}
       >
-        <div className="w-12 h-12 select-none">
+        <div className="w-14 h-14 select-none">
           <Image
-            src="/proxyman-logo.png"
+            src="/proxyman-logo-v2.png"
             alt="Proxyman logo"
             layout="responsive"
-            width={100}
-            height={100}
+            width={120}
+            height={120}
           />
         </div>
         <LinkTitle
           css={{
-            fontSize: 18,
+            fontSize: 22,
             color: "white",
             marginTop: 16,
             marginBottom: 7,

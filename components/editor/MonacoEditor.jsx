@@ -103,7 +103,7 @@ const MonacoEditor = () => {
         </div>
         <div className="flex flex-row">
           <CTAButton handleOnClick={() => handleShowDiff()}>
-            {showDiffEditor ? "Edit input" : "Show difference"}
+            {showDiffEditor ? "Edit Input" : "Show Diff"}
           </CTAButton>
         </div>
       </div>
