@@ -125,7 +125,7 @@ const MonacoEditor = () => {
           />
         </div>
       ) : (
-        <div className="flex flex-row w-full editorContainer">
+        <div className="flex flex-col md:flex-row w-full editorContainer">
           <InputEditor
             value={leftInput}
             onChange={(value) => handleInputChange(PANEL.LEFT, value)}
@@ -134,7 +134,7 @@ const MonacoEditor = () => {
             language={diffConfig.language.name}
             styling={{ justifyContent: "flex-start" }}
           />
-          <div className="w-4"></div>
+          <div className="w-4 my-2 md:my-0"></div>
           <InputEditor
             value={rightInput}
             onChange={(value) => handleInputChange(PANEL.RIGHT, value)}

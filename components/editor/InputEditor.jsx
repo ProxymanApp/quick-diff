@@ -11,7 +11,7 @@ const InputEditor = ({
     styling,
   }) => {
     return (
-      <div className="flex flex-col w-1/2 h-full">
+      <div className="flex flex-col md:w-1/2 h-full">
         <Editor
           className="w-full h-full border border-gray-200 shadow-md"
           theme="vs-light"

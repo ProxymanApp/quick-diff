@@ -1,7 +1,7 @@
 export const defaultLeft = `[
   {
-    "id": "0001",
-    "type": "donut",
+    "id": "0002",
+    "type": "Ice Cream",
     "name": "Cake",
     "ppu": 0.55,
     "batters": {
