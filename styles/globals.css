@@ -29,6 +29,19 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .logo-highlightText {
+    background: -webkit-linear-gradient(#8c4fc7, #4662dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .logo-highlightText:hover {
+    background: rgb(79 70 229);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: rgb(79 70 229);  
+  }
   .customBtn:hover {
     background: linear-gradient(304deg, rgba(140,79,199,1) 0%, rgba(101,90,210,1) 60%, rgba(70,98,220,1) 100%);
   }

@@ -14,7 +14,9 @@ const NavigationMenu = () => {
           <div>
             Built by{" "}
             <a
-              className="text-gray-700 hover:text-indigo-600 cursor-pointer"
+              className="logo-highlightText hover:text-indigo-800 hover:underline cursor-pointer"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://proxyman.io"
             >
               Proxyman

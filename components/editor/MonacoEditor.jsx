@@ -5,6 +5,7 @@ import InputEditor from "./InputEditor";
 import CTAButton from "../button/CTAButton";
 import { PANEL, DIFF_MODE, LANGUAGE } from "../../utils/Constants";
 import LanguageComboBox from "./LanguageComboBox";
+import { defaultLeft, defaultRight } from "./Utils";
 
 const diffModes = [
   { id: 1, mode: DIFF_MODE.SIDE_BY_SIDE },
@@ -15,19 +16,6 @@ const defaultLanguage = {
   id: 1,
   name: LANGUAGE.JSON,
 }
-
-const defaultLeft = `{
-  "timestamp": "2022-09-11T11:35:44+07:00",
-  "event": "visit",
-  "page": "home"
-}`;
-
-const defaultRight = `{
-  "timestamp": "2022-09-22T09:40:44+07:00",
-  "event": "click on button",
-  "page": "user",
-  "id": "ABCD"
-}`;
 
 const MonacoEditor = () => {
   const [leftInput, setLeftInput] = useState(defaultLeft);
