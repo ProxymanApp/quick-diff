@@ -103,7 +103,7 @@ const MonacoEditor = () => {
   }
 
   return (
-    <div className="w-full flex flex-col gap-4 mt-4">
+    <div className="w-full flex flex-col gap-4">
       <div className="w-full flex flex-row justify-between items-end">
         <div className="flex flex-row gap-4 items-center">
           <LanguageComboBox selectedLanguage={diffConfig.language} setSelectedLanguage={languageComboBoxDidSelect}></LanguageComboBox>
